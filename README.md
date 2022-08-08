@@ -1,4 +1,6 @@
-# Projeto 01 - Flutter básico e Widgets;
+# Projeto 01 - Flutter Básico e Widgets;
+App que utiliza widgets e plugins básicos do Flutter.
+## Créditos
+Projeto desenvolvido durante o curso [Flutter Essencial](https://www.udemy.com/course/flutter-essencial/).
 
-App utilizando funcionalidades básicas do Flutter.
-Projeto realizado durante o curso Flutter Essencial, da Udemy por [Ricardo Lecheta](https://github.com/rlechetaudemy).
+Reposiório Fonte: <https://github.com/rlechetaudemy/flutter_hello>
