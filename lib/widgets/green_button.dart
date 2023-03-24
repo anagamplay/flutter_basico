@@ -10,8 +10,10 @@
 
     @override
     Widget build(BuildContext context) {
-      return RaisedButton(
-        color: Colors.green,
+      return ElevatedButton(
+        style: ButtonStyle(
+          backgroundColor: MaterialStateProperty.all(Colors.green),
+        ),
         onPressed: () => onPressed(),
         child: Text(
           text,

@@ -166,7 +166,7 @@ void _onClickNavigator(BuildContext context, Widget page) async {
 
 // Alerts:
 _onClickSnack(context) {
-  Scaffold.of(context).showSnackBar(
+  ScaffoldMessenger.of(context).showSnackBar(
     SnackBar(
       content: const Text('Olá Flutter!'),
       action: SnackBarAction(
@@ -190,13 +190,13 @@ _onClickDialog(context) {
         child: AlertDialog(
           title: const Text('Flutter é muito legal!'),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
               child: const Text('Cancelar'),
               onPressed: () {
                 Navigator.pop(context);
               },
             ),
-            FlatButton(
+            TextButton(
               child: const Text('Ok'),
               onPressed: () {
                 Navigator.pop(context);
